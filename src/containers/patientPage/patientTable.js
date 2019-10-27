@@ -19,7 +19,7 @@ class PatientTable extends Component {
         },
         {   title: 'Patient ID', field: 'patientId' },
         {   title: 'Village No.', field: 'villageNumber'},
-        {   title: 'Last Reading', field: 'followUp',
+        {   title: 'Last Reading',
                 render: rowData => <p>{this.getPrettyDate(this.getLatestReading(rowData.readings))}</p>,
             customSort: (a,b) => this.getMomentDate(this.getLatestReading(a.readings)).valueOf() - this.getMomentDate(this.getLatestReading(b.readings)).valueOf(),
             defaultSort: 'desc' }
