@@ -1,3 +1,3 @@
 # This Heroku configuration file configures the server to build.
 
-web: gunicorn deploy:./server/app.py
+web: gunicorn app:./server/app.py
