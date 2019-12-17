@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/cradle-vsa.github.io/static/media/roboto-latin-100italic.f9e8e590.woff"
   },
   {
-    "revision": "2a650323424b33e1406e",
+    "revision": "61b766161e52900eeef0",
     "url": "/cradle-vsa.github.io/static/css/main.f09270b5.chunk.css"
   },
   {
@@ -76,8 +76,8 @@ self.__precacheManifest = [
     "url": "/cradle-vsa.github.io/static/media/roboto-latin-100italic.f8b1df51.woff2"
   },
   {
-    "revision": "2a650323424b33e1406e",
-    "url": "/cradle-vsa.github.io/static/js/main.6640a1d8.chunk.js"
+    "revision": "61b766161e52900eeef0",
+    "url": "/cradle-vsa.github.io/static/js/main.2d45b3bf.chunk.js"
   },
   {
     "revision": "b00849e00f4c2331cddd8ffb44a6720b",
@@ -88,32 +88,28 @@ self.__precacheManifest = [
     "url": "/cradle-vsa.github.io/static/media/roboto-latin-300italic.4df32891.woff"
   },
   {
-    "revision": "14286f3ba79c6627433572dfa925202e",
-    "url": "/cradle-vsa.github.io/static/media/roboto-latin-300italic.14286f3b.woff2"
+    "revision": "51521a2a8da71e50d871ac6fd2187e87",
+    "url": "/cradle-vsa.github.io/static/media/roboto-latin-400italic.51521a2a.woff2"
   },
   {
     "revision": "60fa3c0614b8fb2f394fa29944c21540",
     "url": "/cradle-vsa.github.io/static/media/roboto-latin-400.60fa3c06.woff"
   },
   {
-    "revision": "51521a2a8da71e50d871ac6fd2187e87",
-    "url": "/cradle-vsa.github.io/static/media/roboto-latin-400italic.51521a2a.woff2"
-  },
-  {
-    "revision": "fe65b8335ee19dd944289f9ed3178c78",
-    "url": "/cradle-vsa.github.io/static/media/roboto-latin-400italic.fe65b833.woff"
+    "revision": "14286f3ba79c6627433572dfa925202e",
+    "url": "/cradle-vsa.github.io/static/media/roboto-latin-300italic.14286f3b.woff2"
   },
   {
     "revision": "87284894879f5b1c229cb49c8ff6decc",
     "url": "/cradle-vsa.github.io/static/media/roboto-latin-500.87284894.woff"
   },
   {
-    "revision": "db4a2a231f52e497c0191e8966b0ee58",
-    "url": "/cradle-vsa.github.io/static/media/roboto-latin-500italic.db4a2a23.woff2"
+    "revision": "fe65b8335ee19dd944289f9ed3178c78",
+    "url": "/cradle-vsa.github.io/static/media/roboto-latin-400italic.fe65b833.woff"
   },
   {
-    "revision": "da0e717829e033a69dec97f1e155ae42",
-    "url": "/cradle-vsa.github.io/static/media/roboto-latin-700italic.da0e7178.woff2"
+    "revision": "db4a2a231f52e497c0191e8966b0ee58",
+    "url": "/cradle-vsa.github.io/static/media/roboto-latin-500italic.db4a2a23.woff2"
   },
   {
     "revision": "288ad9c6e8b43cf02443a1f499bdf67e",
@@ -126,6 +122,10 @@ self.__precacheManifest = [
   {
     "revision": "81f57861ed4ac74741f5671e1dff2fd9",
     "url": "/cradle-vsa.github.io/static/media/roboto-latin-700italic.81f57861.woff"
+  },
+  {
+    "revision": "da0e717829e033a69dec97f1e155ae42",
+    "url": "/cradle-vsa.github.io/static/media/roboto-latin-700italic.da0e7178.woff2"
   },
   {
     "revision": "bb1e4dc6333675d11ada2e857e7f95d7",
@@ -152,7 +152,7 @@ self.__precacheManifest = [
     "url": "/cradle-vsa.github.io/static/css/2.ff10e425.chunk.css"
   },
   {
-    "revision": "ae8cf4f694f747e5b50a517a48bf1b34",
+    "revision": "efb162545bf27998f3994d0da1d822a4",
     "url": "/cradle-vsa.github.io/index.html"
   }
 ];

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/cradle-vsa.github.io/precache-manifest.650162b76392c94aaa0694e58a339eb6.js"
+  "/cradle-vsa.github.io/precache-manifest.0a6e8b3f48bbe0c874dc6c029d9f24b0.js"
 );
 
 workbox.clientsClaim();
