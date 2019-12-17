@@ -1,8 +1,9 @@
 {
   "private": true,
-  "homepage": "https://cradle-vsa.github.io/client/build",
+  "homepage": "https://kev-le.github.io/cradle-vsa.github.io",
   "scripts": {
-    "deploy": "now && now alias",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "now-start": "serve -s ./build",
     "build": "react-scripts build",
@@ -11,6 +12,7 @@
     "precommit": "pretty-quick --staged"
   },
   "devDependencies": {
+    "gh-pages": "^2.1.1",
     "prettier": "1.18.2",
     "react-scripts": "2.1.8"
   },
