@@ -44,12 +44,12 @@ self.__precacheManifest = [
     "url": "/cradle-vsa.github.io/static/media/video-solid.a79fd577.svg"
   },
   {
-    "revision": "ef7c6637c68f269a882e73bcb57a7f6a",
-    "url": "/cradle-vsa.github.io/static/media/roboto-latin-300.ef7c6637.woff2"
-  },
-  {
     "revision": "7370c3679472e9560965ff48a4399d0b",
     "url": "/cradle-vsa.github.io/static/media/roboto-latin-100.7370c367.woff2"
+  },
+  {
+    "revision": "ef7c6637c68f269a882e73bcb57a7f6a",
+    "url": "/cradle-vsa.github.io/static/media/roboto-latin-300.ef7c6637.woff2"
   },
   {
     "revision": "479970ffb74f2117317f9d24d9e317fe",
@@ -68,12 +68,12 @@ self.__precacheManifest = [
     "url": "/cradle-vsa.github.io/static/media/roboto-latin-900.9b3766ef.woff2"
   },
   {
-    "revision": "5cb7edfceb233100075dc9a1e12e8da3",
-    "url": "/cradle-vsa.github.io/static/media/roboto-latin-100.5cb7edfc.woff"
-  },
-  {
     "revision": "f9e8e590b4e0f1ff83469bb2a55b8488",
     "url": "/cradle-vsa.github.io/static/media/roboto-latin-100italic.f9e8e590.woff"
+  },
+  {
+    "revision": "5cb7edfceb233100075dc9a1e12e8da3",
+    "url": "/cradle-vsa.github.io/static/media/roboto-latin-100.5cb7edfc.woff"
   },
   {
     "revision": "94034cf5e72b16fd56da",
@@ -92,52 +92,52 @@ self.__precacheManifest = [
     "url": "/cradle-vsa.github.io/static/media/roboto-latin-300italic.4df32891.woff"
   },
   {
-    "revision": "51521a2a8da71e50d871ac6fd2187e87",
-    "url": "/cradle-vsa.github.io/static/media/roboto-latin-400italic.51521a2a.woff2"
+    "revision": "60fa3c0614b8fb2f394fa29944c21540",
+    "url": "/cradle-vsa.github.io/static/media/roboto-latin-400.60fa3c06.woff"
   },
   {
     "revision": "fe65b8335ee19dd944289f9ed3178c78",
     "url": "/cradle-vsa.github.io/static/media/roboto-latin-400italic.fe65b833.woff"
   },
   {
-    "revision": "60fa3c0614b8fb2f394fa29944c21540",
-    "url": "/cradle-vsa.github.io/static/media/roboto-latin-400.60fa3c06.woff"
-  },
-  {
-    "revision": "87284894879f5b1c229cb49c8ff6decc",
-    "url": "/cradle-vsa.github.io/static/media/roboto-latin-500.87284894.woff"
-  },
-  {
-    "revision": "db4a2a231f52e497c0191e8966b0ee58",
-    "url": "/cradle-vsa.github.io/static/media/roboto-latin-500italic.db4a2a23.woff2"
+    "revision": "51521a2a8da71e50d871ac6fd2187e87",
+    "url": "/cradle-vsa.github.io/static/media/roboto-latin-400italic.51521a2a.woff2"
   },
   {
     "revision": "288ad9c6e8b43cf02443a1f499bdf67e",
     "url": "/cradle-vsa.github.io/static/media/roboto-latin-500italic.288ad9c6.woff"
   },
   {
-    "revision": "da0e717829e033a69dec97f1e155ae42",
-    "url": "/cradle-vsa.github.io/static/media/roboto-latin-700italic.da0e7178.woff2"
+    "revision": "db4a2a231f52e497c0191e8966b0ee58",
+    "url": "/cradle-vsa.github.io/static/media/roboto-latin-500italic.db4a2a23.woff2"
   },
   {
     "revision": "adcde98f1d584de52060ad7b16373da3",
     "url": "/cradle-vsa.github.io/static/media/roboto-latin-700.adcde98f.woff"
   },
   {
-    "revision": "81f57861ed4ac74741f5671e1dff2fd9",
-    "url": "/cradle-vsa.github.io/static/media/roboto-latin-700italic.81f57861.woff"
+    "revision": "da0e717829e033a69dec97f1e155ae42",
+    "url": "/cradle-vsa.github.io/static/media/roboto-latin-700italic.da0e7178.woff2"
+  },
+  {
+    "revision": "87284894879f5b1c229cb49c8ff6decc",
+    "url": "/cradle-vsa.github.io/static/media/roboto-latin-500.87284894.woff"
   },
   {
     "revision": "bb1e4dc6333675d11ada2e857e7f95d7",
     "url": "/cradle-vsa.github.io/static/media/roboto-latin-900.bb1e4dc6.woff"
   },
   {
-    "revision": "ebf6d1640ccddb99fb49f73c052c55a8",
-    "url": "/cradle-vsa.github.io/static/media/roboto-latin-900italic.ebf6d164.woff2"
+    "revision": "81f57861ed4ac74741f5671e1dff2fd9",
+    "url": "/cradle-vsa.github.io/static/media/roboto-latin-700italic.81f57861.woff"
   },
   {
     "revision": "28f9151055c950874d2c6803a39b425b",
     "url": "/cradle-vsa.github.io/static/media/roboto-latin-900italic.28f91510.woff"
+  },
+  {
+    "revision": "ebf6d1640ccddb99fb49f73c052c55a8",
+    "url": "/cradle-vsa.github.io/static/media/roboto-latin-900italic.ebf6d164.woff2"
   },
   {
     "revision": "d386ae33a4bbf878a09654581ef5b05b",
