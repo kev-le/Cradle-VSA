@@ -1,6 +1,5 @@
 {
   "private": true,
-  "homepage": "https://kev-le.github.io/cradle-vsa.github.io",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
