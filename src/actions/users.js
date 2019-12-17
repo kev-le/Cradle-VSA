@@ -58,7 +58,7 @@ export const userLoginFetch = user => {
         } else {
           localStorage.setItem("token", data.token);
           dispatch(getCurrentUser()).then(() => {
-            dispatch(push('/patients'))
+            dispatch(push(process.env.PUBLIC_URL + '/patients'))
           })
         }
       })
@@ -80,13 +80,13 @@ export const getCurrentUser = () => {
             console.log(res)
             // invalid token, remove current token
             localStorage.removeItem("token")
-            dispatch(push('/login'))
+            dispatch(push(process.env.PUBLIC_URL + '/login'))
           } else {
             console.log(res)
             dispatch(loginUser(res.data))
           }
         }).catch((err) => { 
-          dispatch(push('/login'))
+          dispatch(push(process.env.PUBLIC_URL + '/login'))
           return {'message' : 'Not authorized'}
         } )
     }
@@ -191,7 +191,7 @@ export const logoutUser = () => {
   return dispatch => {
     localStorage.removeItem("token")
     dispatch(logoutUserAction())
-    dispatch(push('/login'))
+    dispatch(push(process.env.PUBLIC_URL + '/login'))
   }
 }
 
