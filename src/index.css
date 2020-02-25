@@ -1,0 +1,143 @@
+:root {
+  --theme_color: #8fe0e7;
+  --button_color: #84ced4;
+  --button_hover_color: #4893ba;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 1rem;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+main {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+}
+
+.logout:hover {
+  opacity: 0.5;
+}
+
+.loginWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: calc(86vh - 54px);
+    /* height: 100vh; */
+    width: 100vw;
+    justify-content: center;
+    align-items: center; 
+    position: relative;   
+}
+
+.loginWrapper > * {
+    min-height: auto !important;
+}
+
+.subWrapper {
+    width: 45%;
+    margin: 0;
+}
+
+.imgStyle {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    left: -25%;
+}
+
+.inputStyle {
+    width: 65%;
+    font-size: 20px;
+    border-bottom: solid 1px #000;
+    position: relative;
+    left: 2%;
+}
+
+input {
+  border: 0;
+}
+
+.content-box-signup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100%;
+  width: 45%;
+  min-width: 500px;
+  margin-right: 15%;
+  margin-bottom: 25%;
+  padding: 10px;
+  position: relative;
+  box-shadow: 2px 5px 5px #888888;
+  margin: auto;
+}
+
+.content-box h1 {
+  font-weight: 400;
+  font-size: 3em;
+  margin: 0.2em 0 0.1em;
+}
+
+input::placeholder {
+    color: rgb(112, 106, 106);
+}
+
+
+button:disabled {
+  opacity: 0.5;
+}
+
+.contant-submit {
+  background-color: var(--button_color);
+  width: 20%;
+  height: 37px;
+  font-size: 21px;
+  border-radius: 5px;
+  margin: 7%;
+  border: 0;
+  position: relative;
+  right: -230px;
+}
+
+.contant-submit:hover {
+  background-color: var(--button_hover_color);
+}
+
+.white {
+  color: #fff;
+}
+
+.center {
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.appIcon {
+  width: 100px;
+  padding: 20px;
+}
+
+.sidebarIcon {
+  width: 75%;
+}
+
+* {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.formError {
+  font-size: 12px;
+  color: #e53e3e;
+  width: 400px;
+  margin-top: 0.25rem;
+}
