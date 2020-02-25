@@ -4,7 +4,7 @@
 
 React front-end web application and Python back-end web server for the Cradle VSA System, a technological health care system to improve maternal care and reduce preventable maternal deaths in Ugandan villages.
 
-View the React web application here: https://cradle-vsa.github.io/client/build
+View the React web application here: https://cradle-app.herokuapp.com/login
 
 The back-end is in the directory `server/` and the front-end is in the directory `client/`.
 
