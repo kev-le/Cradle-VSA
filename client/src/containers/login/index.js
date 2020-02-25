@@ -27,6 +27,13 @@ const SignupForm = (props) => {
   });
   return (
     <form onSubmit={formik.handleSubmit}>
+      <h3> Demo Site!</h3>
+      <h5> Note: some issues with the demo site when hosting on Heroku </h5>
+      <h5>
+           Demo user: admin@admin.com
+           <br/>
+           Password: 123456
+      </h5>
       <h1 style={{"font-size" : "50px"}}>Log In</h1>
 
       <h2>Email</h2>
