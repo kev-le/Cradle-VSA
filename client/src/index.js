@@ -10,10 +10,10 @@ import 'sanitize.css/sanitize.css'
 import './index.css'
 
 
-import BASE_URL from './serverUrl'
+import BASE_URL, {PUBLIC_URL }  from './serverUrl'
 
 console.log("API BASE_URL: " + BASE_URL);
-console.log("PUBLIC URL: " + process.env.PUBLIC_URL);
+console.log("PUBLIC URL: " + PUBLIC_URL);
 
 const target = document.querySelector('#root')
 
