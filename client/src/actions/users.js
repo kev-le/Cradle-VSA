@@ -80,13 +80,13 @@ export const getCurrentUser = () => {
             console.log(res)
             // invalid token, remove current token
             localStorage.removeItem("token")
-            dispatch(push(process.env.PUBLIC_URL + '/login'))
+            dispatch(push('/login'))
           } else {
             console.log(res)
             dispatch(loginUser(res.data))
           }
         }).catch((err) => { 
-          dispatch(push(process.env.PUBLIC_URL + '/login'))
+          dispatch(push('/login'))
           return {'message' : 'Not authorized'}
         } )
     }
@@ -191,7 +191,7 @@ export const logoutUser = () => {
   return dispatch => {
     localStorage.removeItem("token")
     dispatch(logoutUserAction())
-    dispatch(push(process.env.PUBLIC_URL + '/login'))
+    dispatch(push('/login'))
   }
 }
 

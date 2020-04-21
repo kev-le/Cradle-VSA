@@ -10,7 +10,7 @@ import {
 } from '../actions/users';
 
 const initialStateUser = {
-  currentUser: {}
+  isLoggedIn: false
 }
 
 const userReducer = (state = initialStateUser, action) => {
@@ -18,7 +18,7 @@ const userReducer = (state = initialStateUser, action) => {
     case 'LOGIN_USER':
       return action.payload
     case 'LOGOUT_USER':
-      return {}
+      return initialStateUser
     default:
       return state
   }

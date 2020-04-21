@@ -1,10 +1,14 @@
 import { createStore, applyMiddleware, compose } from 'redux'
-import { connectRouter, routerMiddleware } from 'connected-react-router'
+import { routerMiddleware } from 'connected-react-router'
+import createRootReducer from './reducers'
 import thunk from 'redux-thunk'
-import * as History from 'history'
-import rootReducer from './reducers'
+import { createBrowserHistory } from 'history'
 
-export const history = History.createBrowserHistory()
+export const history = createBrowserHistory(
+  {
+    basename: process.env.PUBLIC_URL
+  }
+)
 
 const initialState = {}
 const enhancers = []
@@ -24,7 +28,7 @@ const composedEnhancers = compose(
 )
 
 export default createStore(
-  connectRouter(history)(rootReducer),
+  createRootReducer(history),
   initialState,
   composedEnhancers
 )

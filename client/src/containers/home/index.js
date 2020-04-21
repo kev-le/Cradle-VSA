@@ -5,7 +5,7 @@ import { connect } from 'react-redux'
 
 const Home = props => {
   return (
-    props.currentUser ? 
+    props.currentUser.isLoggedIn ? 
       <Redirect to="/patients" /> : <Redirect to="/login" />
   )
 }

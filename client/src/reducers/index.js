@@ -9,9 +9,10 @@ import patientStats from './patientStats'
 import healthFacilities from './healthFacilities'
 import newReading from './newReading'
 import chat from './chat'
+import { connectRouter } from 'connected-react-router'
 
-
-const appReducer = combineReducers({
+export default (history) => combineReducers({
+  router: connectRouter(history),
   counter,
   posts,
   user: userReducer,
@@ -24,9 +25,9 @@ const appReducer = combineReducers({
   chat
 })
 
-export default (state, action) => {
-  if (action.type === 'LOGOUT_USER') {
-    state = undefined
-  }
-  return appReducer(state,action)
-}
+// export default (state, action) => {
+//   if (action.type === 'LOGOUT_USER') {
+//     state = undefined
+//   }
+//   return appReducer(state,action)
+// }
