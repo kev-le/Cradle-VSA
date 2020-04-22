@@ -28,7 +28,8 @@ const SignupForm = (props) => {
   return (
     <form onSubmit={formik.handleSubmit}>
       <h3> Demo Site!</h3>
-      <h5> Note: some issues with the demo site when hosting on Heroku </h5>
+      <h5> Please feel free to make any updates/deletions to the patient data </h5>
+      <h5> No real patients. All patients are created with mock data </h5>
       <h5>
            Demo user: admin@admin.com
            <br/>
